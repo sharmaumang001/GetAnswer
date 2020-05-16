@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#13E1CE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/The_heading"
+        android:layout_width="397dp"
+        android:layout_height="39dp"
+        android:background="#7833F1"
+        android:text="   I MAKE DECISION MAKING EASY!!"
+        android:textColor="#FBFBFB"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="342dp"
+        android:layout_height="338dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/The_heading"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/ball1" />
+
+    <Button
+        android:id="@+id/ask"
+        android:layout_width="118dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#0679D5"
+        android:text="ASK"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ball" />
+</androidx.constraintlayout.widget.ConstraintLayout>
